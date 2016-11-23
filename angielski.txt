@@ -54,3 +54,14 @@ interviewee - osoba poddana wywiadowi
 shortlisted - zakwalifikowany
 adverse conditions - niekorzystne warunki
 on the downside - złe strony
+legislative - ustawodawczy
+executive - wykonawczy
+judicial - sądowy
+politics - polityka
+policy - dyplomacja
+dictatorship - dyktatura
+election - wybór
+tu run for an office - ubiegać się o urząd
+spindoctor - spec od PR
+to spin - piarować
+nominee - mianowany kandydat

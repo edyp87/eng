@@ -51,7 +51,7 @@ int main()
 {
     srand( time( NULL ) );
     map<string, string> dictionary {};
-    openFile("../angielski/angielski.txt", dictionary);
+    openFile("../eng/angielski.txt", dictionary);
 
     while (true)
     {
