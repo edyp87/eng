@@ -10,6 +10,7 @@ WordsTeacher::WordsTeacher(const PairPicker & _pairPicker, QWidget *parent) :
 {
     qsrand(static_cast<unsigned>(QTime::currentTime().msec()));
     ui->setupUi(this);
+    ui->reactionButton->setFocus();
     changePair();
     connects();
 }
