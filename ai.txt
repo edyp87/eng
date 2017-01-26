@@ -1,121 +1,121 @@
-downfall - upadek
-artificial - sztuczny
-to blow hot and cold - zmieniać krańcowo poglądy
-revered - szanowany
-to reveal sth - ujawniać coś
-advancement - postęp, rozwój, odkrycie
-to influence sth - wpływać na coś
-scores - wyniki
-blockbuster - hit kinowy
-far fetched - przesadzony
-to release sth - wypuszczać coś (np. film), wydawać
-foe - wróg
-currently - obecnie
-surrounding - towarzyszący
-leading - wiodący
-concern - troska, zniepokojenie
-to depend on sth - zależeć od czegoś
-to behave - zachowywać się
-threatened - zagrożony
-path - ścieżka
-unlikely - niezwykły
-speaker - mówca
-to come across - wypadać, wyglądać na
-anorak - dziwak, maniak
-despite sth - pomimo czegoś
-to get one's point across on sth - przekazywać swój punkt widzenia
-to make an appearance - pojawić się
-to question sb - podważać opinię kogoś
-thinker - myśliciel
-to estimate that - przewidywać, że
-to overtake sb - przejmować nad kimś kontrolę
-to agree - zgadzać się
-to take sth into consideration - brać coś pod uwagę
-inevitable - nieunikniony
-factor - czynnik
-to prevent sth - zapobiegać czemuś
-in the fear - w obawie 
-to argue that... - przekonywać, że
-available - dostępny
-previous - poprzedni
-attempt - próba
-flick - film
-straightforward - prosty, nieskomplikowany
-flexible - elastyczny
-to mirror sth - kopiować coś
-to provide sth with sth - dostarczać czegoś czemuś
-direct - bezpośredni
-order - rozkaz, komenda
-example input - wprowadzanie przykładowych danych
-to enable sth to do sth - umożliwić czemuś coś
-reason - przyczyna
-array of sth - zakres czegoś
-to struggle - zmagać się z czymś
-to replicate sth - powtórzyć coś, powielić coś
-to feed sth with sth - nakarmić coś czymś
-data - dane
-to sift sth through - przetworzyć coś
-efficiently - skutecznie
-foolproof - niezawodny
-sat nav - nawigacja
-to tap sth - wpisać coś (do komputera)
-to be familiar with sth - być z czymś zaznajomionym
-voice command - działający na komendę
-vacuum cleaner - odkurzacz
-hatred - niechęć
-to take off - odnieść sukces
-designed - zaprojektowany
-heating system - system ogrzewania
-sensor - czujnik
-pattern - wzorzec
-occupant - mieszkaniec
-to predict sth - przewidzieć coś
-to heat sth up - podgrzewać coś
-to ensure sth - zagwarantować coś
-unnecessarily - gry nie ma tekiej potrzeby
-forgetful - zapominalski
-warplane - samolot bojowy
-remotely - zdalnie
-further down the line - w przyszłości
-to pose a threat - stanowić zagrożenie
-to be lit up with sth - rozbłyskiwać czymś
-recognisable - rozpoznawalny
-either...or... - albo...albo...
-vindicative - mściwy
-terryfying - przerażający
-grain of truth - ziarenko prawdy
-notable - zauważalny
-stage - etap
-to perform - działać
-to surpass sb - przewyższyć kogoś
-gap - luka
-to figure sth out - zrozumieć coś
-variety - różnorodność
-relatively - względnie
-primary - główny
-to advance sth - rozwijać coś
-Gross Domestic Product - Produkt Krajowy Brutto
-to increase by x percent - wzrosnąć o procent
-to be down to sth - być spowodowanym czymś
-longevity - długowieczność
-means - środek (uzyskania czegoś)
-fate - los
-nuclear weapons - broń atomowa
-menial - podrzędny
-capable of sth - być zdolntm do czegoś
-unable to do sth - niezdolny do zrobienia czegoś
-to be deemed surplus to sth - zostać uznanym za zbędny dodatek
-requirement - wymóg. wymaganie
-to point out that... - wskazywać, że...
-boredom - nuda
-leisure time - wolny czas
-dubious - wątpliwy
-pastime - rozrywka
-teenage - nastoletni
-truant - wagarowicz
-caution - ostrożność
-to embrance sth - być zwolennikiem czegoś
-to warn sth - ostrzegać przed czymś
-hazard - ryzyko
-essential - zasadniczy
-survival - przetrwanie
+downfall | upadek
+artificial | sztuczny
+to blow hot and cold | zmieniać krańcowo poglądy
+revered | szanowany
+to reveal sth | ujawniać coś
+advancement | postęp, rozwój, odkrycie
+to influence sth | wpływać na coś
+scores | wyniki
+blockbuster | hit kinowy
+far fetched | przesadzony
+to release sth | wypuszczać coś (np. film), wydawać
+foe | wróg
+currently | obecnie
+surrounding | towarzyszący
+leading | wiodący
+concern | troska, zniepokojenie
+to depend on sth | zależeć od czegoś
+to behave | zachowywać się
+threatened | zagrożony
+path | ścieżka
+unlikely | niezwykły
+speaker | mówca
+to come across | wypadać, wyglądać na
+anorak | dziwak, maniak
+despite sth | pomimo czegoś
+to get one's point across on sth | przekazywać swój punkt widzenia
+to make an appearance | pojawić się
+to question sb | podważać opinię kogoś
+thinker | myśliciel
+to estimate that | przewidywać, że
+to overtake sb | przejmować nad kimś kontrolę
+to agree | zgadzać się
+to take sth into consideration | brać coś pod uwagę
+inevitable | nieunikniony
+factor | czynnik
+to prevent sth | zapobiegać czemuś
+in the fear | w obawie 
+to argue that... | przekonywać, że
+available | dostępny
+previous | poprzedni
+attempt | próba
+flick | film
+straightforward | prosty, nieskomplikowany
+flexible | elastyczny
+to mirror sth | kopiować coś
+to provide sth with sth | dostarczać czegoś czemuś
+direct | bezpośredni
+order | rozkaz, komenda
+example input | wprowadzanie przykładowych danych
+to enable sth to do sth | umożliwić czemuś coś
+reason | przyczyna
+array of sth | zakres czegoś
+to struggle | zmagać się z czymś
+to replicate sth | powtórzyć coś, powielić coś
+to feed sth with sth | nakarmić coś czymś
+data | dane
+to sift sth through | przetworzyć coś
+efficiently | skutecznie
+foolproof | niezawodny
+sat nav | nawigacja
+to tap sth | wpisać coś (do komputera)
+to be familiar with sth | być z czymś zaznajomionym
+voice command | działający na komendę
+vacuum cleaner | odkurzacz
+hatred | niechęć
+to take off | odnieść sukces
+designed | zaprojektowany
+heating system | system ogrzewania
+sensor | czujnik
+pattern | wzorzec
+occupant | mieszkaniec
+to predict sth | przewidzieć coś
+to heat sth up | podgrzewać coś
+to ensure sth | zagwarantować coś
+unnecessarily | gry nie ma tekiej potrzeby
+forgetful | zapominalski
+warplane | samolot bojowy
+remotely | zdalnie
+further down the line | w przyszłości
+to pose a threat | stanowić zagrożenie
+to be lit up with sth | rozbłyskiwać czymś
+recognisable | rozpoznawalny
+either...or... | albo...albo...
+vindicative | mściwy
+terryfying | przerażający
+grain of truth | ziarenko prawdy
+notable | zauważalny
+stage | etap
+to perform | działać
+to surpass sb | przewyższyć kogoś
+gap | luka
+to figure sth out | zrozumieć coś
+variety | różnorodność
+relatively | względnie
+primary | główny
+to advance sth | rozwijać coś
+Gross Domestic Product | Produkt Krajowy Brutto
+to increase by x percent | wzrosnąć o procent
+to be down to sth | być spowodowanym czymś
+longevity | długowieczność
+means | środek (uzyskania czegoś)
+fate | los
+nuclear weapons | broń atomowa
+menial | podrzędny
+capable of sth | być zdolntm do czegoś
+unable to do sth | niezdolny do zrobienia czegoś
+to be deemed surplus to sth | zostać uznanym za zbędny dodatek
+requirement | wymóg. wymaganie
+to point out that... | wskazywać, że...
+boredom | nuda
+leisure time | wolny czas
+dubious | wątpliwy
+pastime | rozrywka
+teenage | nastoletni
+truant | wagarowicz
+caution | ostrożność
+to embrance sth | być zwolennikiem czegoś
+to warn sth | ostrzegać przed czymś
+hazard | ryzyko
+essential | zasadniczy
+survival | przetrwanie

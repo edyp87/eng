@@ -1,106 +1,106 @@
-thoughtful - przemyślany, refleksyjny
-job applicant - starający się o pracę
-to seek sth - szukać czegoś
-to dread sth - obawiać się czegoś
-to endure sth - przetrwać coś
-to relish sth - rozkoszować się czymś
-trembling - drżący
-supplicant - petent, ktoś kto o coś prosi
-loser - niedołęga, przegryw
-to clog sth - zapychać coś
-voicemail - poczta głosowa
-to dodge sth - unikać czegoś
-resume - CV
-to waste sth - marnować coś
-jerk - idiota
-to be familiar with sth - być zaznajomionym z czymś
-wellconnected - ze znajomościami
-relative - krewny
-diverse - różnorodny
-oboist - oboistka
-turned - przekwalifikowany na 
-attorney - adwokat, prawnik
-numerous - liczne
-textbook - podręcznik
-virtually - w zasadzie
-to include sth - obejmować coś
-to host sth - gościć coś
-competition - konkurs
-alternate - co drugi
-to reflect sth - odzwierciedlać coś
-jack of all trades - spec od wszystkiego, złota rączka
-to take pride in sth - szczycić się czymś
-wellrounded - gruntownie wykształcony
-employee - pracownik
-derriere - tyłek
-range of sth - zakres czegoś
-to allow sb to do sth - pozwalać komuś na zrobienie czegoś
-to enhance sth - zwiększać coś
-crap - bzdura
-sleazy - tępy, marny
-unfortunately - niestety
-to acquire sth - nabywać coś
-competitor - rywal
-actually - naprawdę
-to bet - zakładać się
-customer list - lista klientów
-managerial - kierowniczy
-including sth - włącznie z czymś
-to evaluate sth - ocenić coś
-manpower - siła robocza
-to allocate sth - rozdzielać coś, przydzielać coś
-strength - mocna strona
-tough - trudny
-weakness - słaba strona
-to downsize sth - redukować coś
-to be terminated - zostać zwolnionym
-lawsuit - pozew sądowy
-economic downturn - recesja gospodarcza
-white collar worker - pracownik biurowy
-maturity - dojrzałość
-influence - wpływ
-otherwise - w przeciwnym przypadku
-to afford sth - pozwolić sobie na coś
-divorce - rozwód
-to look for sth - szukać czegoś
-to hire sb - zatrudniać kogoś
-to quit - odchodzić (z firmy)
-flexible - elastyczny, łatwo adaptujący
-to provide sth - dostaczać czegoś
-challenge - wyzwanie
-demanding - wymagający
-fancy - wymyślny
-clout - wpływ
-fat chance! - mała szansa!
-frankly - szczerze
-to target sth - ograniczać coś
-to reject sth - odrzucać kogoś
-radius - promień
-to lie to sb - eager to do sth
-contribution - wkład
-(to have sb) up to speed - (zadbać by ktoś był) na bierząco
-aware of sth - świadomy czegoś
-via sth - poprzez coś
-hook up - połączenie, łącze
-headquarters - siedziba główna
-set up - układ
-either..or.. - albo..albo
-to be stuffed into sth - być wciśniętym w coś
-available - dostępny
-trainee position - stanowisko stażysty
-to turn sb down - odrzucać kogoś (ofertę)
-damn - do diabła
-to sweep sth - zamiatać coś
-job slot - wakat
-credentials - referencje
-match - odpowiednie stanowisko
-to set fire to sth - podpalić coś
-to exchange sth with sb - wymieniać się czymś z kimś
-liar - kłamca
-to touch base with sb - skontakować się z kimś
-lawyer - prawnik
-to cross examine sb - brać kogoś w krzyżowy ogień pytań
-to appreciate sth - doceniać kogoś
-to hold one's breath - wstrzymać oddech
-economic - ekonomiczny (w makroskali)
-economical - okonomniczny (np. zakup)
+thoughtful | przemyślany, refleksyjny
+job applicant | starający się o pracę
+to seek sth | szukać czegoś
+to dread sth | obawiać się czegoś
+to endure sth | przetrwać coś
+to relish sth | rozkoszować się czymś
+trembling | drżący
+supplicant | petent, ktoś kto o coś prosi
+loser | niedołęga, przegryw
+to clog sth | zapychać coś
+voicemail | poczta głosowa
+to dodge sth | unikać czegoś
+resume | CV
+to waste sth | marnować coś
+jerk | idiota
+to be familiar with sth | być zaznajomionym z czymś
+wellconnected | ze znajomościami
+relative | krewny
+diverse | różnorodny
+oboist | oboistka
+turned | przekwalifikowany na 
+attorney | adwokat, prawnik
+numerous | liczne
+textbook | podręcznik
+virtually | w zasadzie
+to include sth | obejmować coś
+to host sth | gościć coś
+competition | konkurs
+alternate | co drugi
+to reflect sth | odzwierciedlać coś
+jack of all trades | spec od wszystkiego, złota rączka
+to take pride in sth | szczycić się czymś
+wellrounded | gruntownie wykształcony
+employee | pracownik
+derriere | tyłek
+range of sth | zakres czegoś
+to allow sb to do sth | pozwalać komuś na zrobienie czegoś
+to enhance sth | zwiększać coś
+crap | bzdura
+sleazy | tępy, marny
+unfortunately | niestety
+to acquire sth | nabywać coś
+competitor | rywal
+actually | naprawdę
+to bet | zakładać się
+customer list | lista klientów
+managerial | kierowniczy
+including sth | włącznie z czymś
+to evaluate sth | ocenić coś
+manpower | siła robocza
+to allocate sth | rozdzielać coś, przydzielać coś
+strength | mocna strona
+tough | trudny
+weakness | słaba strona
+to downsize sth | redukować coś
+to be terminated | zostać zwolnionym
+lawsuit | pozew sądowy
+economic downturn | recesja gospodarcza
+white collar worker | pracownik biurowy
+maturity | dojrzałość
+influence | wpływ
+otherwise | w przeciwnym przypadku
+to afford sth | pozwolić sobie na coś
+divorce | rozwód
+to look for sth | szukać czegoś
+to hire sb | zatrudniać kogoś
+to quit | odchodzić (z firmy)
+flexible | elastyczny, łatwo adaptujący
+to provide sth | dostaczać czegoś
+challenge | wyzwanie
+demanding | wymagający
+fancy | wymyślny
+clout | wpływ
+fat chance! | mała szansa!
+frankly | szczerze
+to target sth | ograniczać coś
+to reject sth | odrzucać kogoś
+radius | promień
+to lie to sb | eager to do sth
+contribution | wkład
+(to have sb) up to speed | (zadbać by ktoś był) na bierząco
+aware of sth | świadomy czegoś
+via sth | poprzez coś
+hook up | połączenie, łącze
+headquarters | siedziba główna
+set up | układ
+either..or.. | albo..albo
+to be stuffed into sth | być wciśniętym w coś
+available | dostępny
+trainee position | stanowisko stażysty
+to turn sb down | odrzucać kogoś (ofertę)
+damn | do diabła
+to sweep sth | zamiatać coś
+job slot | wakat
+credentials | referencje
+match | odpowiednie stanowisko
+to set fire to sth | podpalić coś
+to exchange sth with sb | wymieniać się czymś z kimś
+liar | kłamca
+to touch base with sb | skontakować się z kimś
+lawyer | prawnik
+to cross examine sb | brać kogoś w krzyżowy ogień pytań
+to appreciate sth | doceniać kogoś
+to hold one's breath | wstrzymać oddech
+economic | ekonomiczny (w makroskali)
+economical | okonomniczny (np. zakup)

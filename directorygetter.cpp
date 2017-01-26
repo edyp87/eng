@@ -3,11 +3,13 @@
 #include <fstream>
 #include <QFileDialog>
 
-DictionaryGetter::DictionaryGetter(const std::string &filePath) : m_filePath(filePath)
+DictionaryGetter::DictionaryGetter(const std::string &_filePath, const std::string & _delim)
+    : filePath(_filePath),
+      delim(_delim)
 {
-    if (m_filePath.empty())
+    if (filePath.empty())
     {
-        m_filePath =
+        filePath =
                 QFileDialog::getOpenFileName(0,
                                              "Select a dictionary file to open...",
                                              QDir::currentPath(),
@@ -19,14 +21,14 @@ Dictionary DictionaryGetter::getDictionary()
 {
     Dictionary dictionary {};
 
-    openFile(m_filePath, dictionary);
+    openFile(filePath, dictionary);
 
     return dictionary;
 }
 
 Entry DictionaryGetter::split(const std::string &line)
 {
-    size_t found = line.find("-");
+    size_t found = line.find(delim);
     return { line.substr(0, found - 1), line.substr(found + 2) };
 }
 
