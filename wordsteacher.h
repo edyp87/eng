@@ -28,6 +28,8 @@ private:
     void setFieldPl();
     void setFieldEng();
     void clearFieldPl();
+    void clearFieldEng();
+    void randomlyClearOneOfFields();
 
     Ui::WordsTeacher *ui;
     PairPicker pairPicker;

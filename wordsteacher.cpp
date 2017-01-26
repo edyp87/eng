@@ -35,7 +35,8 @@ void WordsTeacher::changePair()
 {
     currentPair = pairPicker.pick();
     setFieldEng();
-    clearFieldPl();
+    setFieldPl();
+    randomlyClearOneOfFields();
     setReactionButtonText("Show answer");
     wordsMastered = false;
 }
@@ -43,6 +44,7 @@ void WordsTeacher::changePair()
 void WordsTeacher::revealAnswer()
 {
     setFieldPl();
+    setFieldEng();
     setReactionButtonText("Next example");
     wordsMastered = true;
 }
@@ -70,4 +72,23 @@ void WordsTeacher::setFieldEng()
 void WordsTeacher::clearFieldPl()
 {
     ui->field_pl->setText("");
+}
+
+void WordsTeacher::clearFieldEng()
+{
+    ui->field_eng->setText("");
+}
+
+void WordsTeacher::randomlyClearOneOfFields()
+{
+    int r = rand() % 2;
+
+    if (r)
+    {
+        clearFieldPl();
+    }
+    else
+    {
+        clearFieldEng();
+    }
 }
