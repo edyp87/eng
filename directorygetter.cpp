@@ -13,7 +13,8 @@ DictionaryGetter::DictionaryGetter(const std::string &filePath) : m_filePath(fil
         m_filePath =
                 QFileDialog::getOpenFileName(0,
                                              "Select a dictionary file to open...",
-                                             QDir::currentPath()).toStdString();
+                                             QDir::currentPath(),
+                                             "Text files (*.txt)").toStdString();
     }
 }
 
