@@ -1,12 +1,14 @@
 #include "wordsteacher.h"
 #include "ui_wordsteacher.h"
 #include <QDebug>
+#include <QTime>
 
 WordsTeacher::WordsTeacher(const PairPicker & _pairPicker, QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::WordsTeacher),
     pairPicker(_pairPicker)
 {
+    qsrand(static_cast<unsigned>(QTime::currentTime().msec()));
     ui->setupUi(this);
     changePair();
     connects();

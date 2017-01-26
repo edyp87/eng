@@ -2,12 +2,9 @@
 
 #include <fstream>
 #include <QFileDialog>
-#include <QTime>
 
 DictionaryGetter::DictionaryGetter(const std::string &filePath) : m_filePath(filePath)
 {
-   qsrand(QTime::currentTime().msec());
-
     if (m_filePath.empty())
     {
         m_filePath =
