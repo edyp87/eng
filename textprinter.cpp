@@ -13,7 +13,7 @@ void TextPrinter::shuffle(Entry &words)
 
 void TextPrinter::ask(PairPicker & pairPicker)
 {
-    Entry words = pairPicker.pick();
+    Entry words = pairPicker.pickRandomly();
     shuffle(words);
 
     std::cout << words.first;  getchar();

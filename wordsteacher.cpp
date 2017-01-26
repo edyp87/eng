@@ -36,7 +36,7 @@ void WordsTeacher::buttonClicked()
 
 void WordsTeacher::changePair()
 {
-    currentPair = pairPicker.pick();
+    currentPair = pickPairAccodringToPolicy();
     setFieldEng();
     setFieldPl();
     clearFieldsAccordingToDirectionPolicy();
@@ -109,5 +109,17 @@ void WordsTeacher::clearFieldsAccordingToDirectionPolicy()
     else
     {
         clearFieldEng();
+    }
+}
+
+Entry WordsTeacher::pickPairAccodringToPolicy()
+{
+    if (ui->randomOrder->isChecked())
+    {
+        return pairPicker.pickRandomly();
+    }
+    else
+    {
+        return pairPicker.next();
     }
 }

@@ -40,6 +40,6 @@ void DictionaryGetter::openFile(const std::string &filename, Dictionary &diction
     while (getline(infile, line))
     {
         auto words = split(line);
-        dictionary[words.first] = words.second;
+        dictionary.push_back(words);
     }
 }

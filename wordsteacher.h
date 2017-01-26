@@ -31,6 +31,7 @@ private:
     void clearFieldEng();
     void randomlyClearOneOfFields();
     void clearFieldsAccordingToDirectionPolicy();
+    Entry pickPairAccodringToPolicy();
 
     Ui::WordsTeacher *ui;
     PairPicker pairPicker;
