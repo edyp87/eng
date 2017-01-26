@@ -33,6 +33,10 @@ private:
     void randomlyClearOneOfFields();
     void clearFieldsAccordingToDirectionPolicy();
     Entry pickPairAccodringToPolicy();
+    void disableDueToEmptyDictionary();
+    void enablePotentiallyDisabledUi();
+    void toggleUi(bool isEnabled);
+    void initializeWithNewDictionary();
 
     Ui::WordsTeacher *ui;
     PairPicker pairPicker;

@@ -12,6 +12,7 @@ public:
     Entry next();
     void resetIterator();
     void resetDictionary(const Dictionary & dictionary);
+    bool isEmpty();
 
 private:
     Entry getRandomFromMap();

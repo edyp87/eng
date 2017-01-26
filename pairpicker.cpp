@@ -46,6 +46,11 @@ void PairPicker::resetDictionary(const Dictionary &dictionary)
     resetIterator();
 }
 
+bool PairPicker::isEmpty()
+{
+    return pairs.empty();
+}
+
 Entry PairPicker::getRandomFromMap()
 {
     if (pairs.empty())

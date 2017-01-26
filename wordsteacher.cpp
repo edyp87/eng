@@ -10,10 +10,13 @@ WordsTeacher::WordsTeacher(const PairPicker & _pairPicker, QWidget *parent) :
     pairPicker(_pairPicker)
 {
     qsrand(static_cast<unsigned>(QTime::currentTime().msec()));
+
     ui->setupUi(this);
     ui->reactionButton->setFocus();
-    changePair();
+
     connects();
+
+    initializeWithNewDictionary();
 }
 
 
@@ -39,7 +42,7 @@ void WordsTeacher::changeDictionary()
 {
     DictionaryGetter dictionaryGetter;
     pairPicker.resetDictionary(dictionaryGetter.getDictionary());
-    changePair();
+    initializeWithNewDictionary();
 }
 
 void WordsTeacher::changePair()
@@ -130,5 +133,38 @@ Entry WordsTeacher::pickPairAccodringToPolicy()
     else
     {
         return pairPicker.next();
+    }
+}
+
+void WordsTeacher::disableDueToEmptyDictionary()
+{
+    toggleUi(false);
+    ui->field_eng->setText("");
+    ui->field_pl->setText("");
+    ui->reactionButton->setText("Empty dictionary. Please read new one.");
+}
+
+void WordsTeacher::enablePotentiallyDisabledUi()
+{
+    toggleUi(true);
+}
+
+void WordsTeacher::toggleUi(bool isEnabled)
+{
+    ui->field_eng->setEnabled(isEnabled);
+    ui->field_pl->setEnabled(isEnabled);
+    ui->reactionButton->setEnabled(isEnabled);
+}
+
+void WordsTeacher::initializeWithNewDictionary()
+{
+    if (pairPicker.isEmpty())
+    {
+        disableDueToEmptyDictionary();
+    }
+    else
+    {
+        enablePotentiallyDisabledUi();
+        changePair();
     }
 }
