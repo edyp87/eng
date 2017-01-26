@@ -24,6 +24,10 @@ private:
     void changePair();
     void revealAnswer();
     void connects();
+    void setReactionButtonText(const QString& text);
+    void setFieldPl();
+    void setFieldEng();
+    void clearFieldPl();
 
     Ui::WordsTeacher *ui;
     PairPicker pairPicker;

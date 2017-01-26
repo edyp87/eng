@@ -23,6 +23,9 @@
       <height>31</height>
      </rect>
     </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QLineEdit" name="field_pl">
     <property name="enabled">
@@ -35,6 +38,12 @@
       <width>241</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="dragEnabled">
+     <bool>false</bool>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="reactionButton">

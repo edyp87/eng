@@ -24,30 +24,50 @@ void WordsTeacher::buttonClicked()
     if (wordsMastered)
     {
         changePair();
-        ui->reactionButton->setText("Show answer");
-        wordsMastered = false;;
     }
     else
     {
         revealAnswer();
-        ui->reactionButton->setText("Next example");
-        wordsMastered = true;
     }
 }
 
 void WordsTeacher::changePair()
 {
     currentPair = pairPicker.pick();
-    ui->field_eng->setText(QString::fromStdString(currentPair.first));
-    ui->field_pl->setText("");
+    setFieldEng();
+    clearFieldPl();
+    setReactionButtonText("Show answer");
+    wordsMastered = false;
 }
 
 void WordsTeacher::revealAnswer()
 {
-    ui->field_pl->setText(QString::fromStdString(currentPair.second));
+    setFieldPl();
+    setReactionButtonText("Next example");
+    wordsMastered = true;
 }
 
 void WordsTeacher::connects()
 {
     connect(ui->reactionButton, SIGNAL(released()), this, SLOT(buttonClicked()));
+}
+
+void WordsTeacher::setReactionButtonText(const QString &text)
+{
+    ui->reactionButton->setText(text);
+}
+
+void WordsTeacher::setFieldPl()
+{
+    ui->field_pl->setText(QString::fromStdString(currentPair.second));
+}
+
+void WordsTeacher::setFieldEng()
+{
+    ui->field_eng->setText(QString::fromStdString(currentPair.first));
+}
+
+void WordsTeacher::clearFieldPl()
+{
+    ui->field_pl->setText("");
 }
