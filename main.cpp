@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
     PairPicker pairPicker(dictionaryGetter.getDictionary());
 
     WordsTeacher window(pairPicker);
-    window.setFixedSize(507, 292);
+    window.setFixedSize(512, 302);
     window.show();
     return app.exec();
 }

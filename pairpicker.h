@@ -11,6 +11,7 @@ public:
     Entry pickRandomly();
     Entry next();
     void resetIterator();
+    void resetDictionary(const Dictionary & dictionary);
 
 private:
     Entry getRandomFromMap();

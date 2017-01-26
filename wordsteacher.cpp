@@ -1,4 +1,5 @@
 #include "wordsteacher.h"
+#include "directorygetter.h"
 #include "ui_wordsteacher.h"
 #include <QDebug>
 #include <QTime>
@@ -34,6 +35,13 @@ void WordsTeacher::buttonClicked()
     }
 }
 
+void WordsTeacher::changeDictionary()
+{
+    DictionaryGetter dictionaryGetter;
+    pairPicker.resetDictionary(dictionaryGetter.getDictionary());
+    changePair();
+}
+
 void WordsTeacher::changePair()
 {
     currentPair = pickPairAccodringToPolicy();
@@ -55,6 +63,7 @@ void WordsTeacher::revealAnswer()
 void WordsTeacher::connects()
 {
     connect(ui->reactionButton, SIGNAL(released()), this, SLOT(buttonClicked()));
+    connect(ui->readNewFileButton, SIGNAL(released()), this, SLOT(changeDictionary()));
 }
 
 void WordsTeacher::setReactionButtonText(const QString &text)

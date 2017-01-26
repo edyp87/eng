@@ -19,6 +19,7 @@ public:
 
 private slots:
     void buttonClicked();
+    void changeDictionary();
 
 private:
     void changePair();

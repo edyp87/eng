@@ -40,6 +40,12 @@ void PairPicker::resetIterator()
     currentElem = 0;
 }
 
+void PairPicker::resetDictionary(const Dictionary &dictionary)
+{
+    pairs = dictionary;
+    resetIterator();
+}
+
 Entry PairPicker::getRandomFromMap()
 {
     if (pairs.empty())
