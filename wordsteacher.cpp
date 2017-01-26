@@ -39,7 +39,7 @@ void WordsTeacher::changePair()
     currentPair = pairPicker.pick();
     setFieldEng();
     setFieldPl();
-    randomlyClearOneOfFields();
+    clearFieldsAccordingToDirectionPolicy();
     setReactionButtonText("Show answer");
     wordsMastered = false;
 }
@@ -87,6 +87,22 @@ void WordsTeacher::randomlyClearOneOfFields()
     int r = rand() % 2;
 
     if (r)
+    {
+        clearFieldPl();
+    }
+    else
+    {
+        clearFieldEng();
+    }
+}
+
+void WordsTeacher::clearFieldsAccordingToDirectionPolicy()
+{
+    if (ui->randomDirection->isChecked())
+    {
+        randomlyClearOneOfFields();
+    }
+    else if (ui->engToPl->isChecked())
     {
         clearFieldPl();
     }

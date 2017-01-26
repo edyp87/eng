@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>507</width>
-    <height>119</height>
+    <width>516</width>
+    <height>292</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -97,6 +97,128 @@
     <property name="text">
      <string>PL</string>
     </property>
+   </widget>
+   <widget class="QGroupBox" name="optionsBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>491</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Options</string>
+    </property>
+    <widget class="QGroupBox" name="optionsTranslationDirectionBox">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>231</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Translation direction</string>
+     </property>
+     <widget class="QRadioButton" name="randomDirection">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>131</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Rando&amp;m direction</string>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="plToEng">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>131</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>P&amp;L to ENG</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="engToPl">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>90</y>
+        <width>89</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ENG to PL</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="optionsSelectionOrderBox">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>30</y>
+       <width>231</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Selection order</string>
+     </property>
+     <widget class="QRadioButton" name="randomOrder">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>131</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Rando&amp;m</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="checked">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="sequentialOrder">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>80</y>
+        <width>133</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Se&amp;quential</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
    </widget>
   </widget>
  </widget>

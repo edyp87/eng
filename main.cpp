@@ -9,11 +9,11 @@ int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
 
-    DictionaryGetter dictionaryGetter;
+    DictionaryGetter dictionaryGetter("../angielski/ai.txt");
     PairPicker pairPicker(dictionaryGetter.getDictionary());
 
     WordsTeacher window(pairPicker);
-    window.setFixedSize(507, 119);
+    window.setFixedSize(507, 292);
     window.show();
     return app.exec();
 }
