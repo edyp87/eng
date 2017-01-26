@@ -22,3 +22,6 @@ HEADERS += \
 
 FORMS += \
     wordsteacher.ui
+
+RESOURCES += \
+    resources.qrc

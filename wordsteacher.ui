@@ -13,6 +13,10 @@
   <property name="windowTitle">
    <string>English Teacher</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="resources.qrc">
+    <normaloff>:/new/images/images/icon.png</normaloff>:/new/images/images/icon.png</iconset>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLineEdit" name="field_eng">
     <property name="geometry">
@@ -87,6 +91,8 @@
    </widget>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
  <connections/>
 </ui>
