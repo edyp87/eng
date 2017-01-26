@@ -1,24 +1,137 @@
-murder - morderstwo
-kidnapping - porwanie
-burglary - włamanie
-mugging - rabunek
-pickpocketing - kradzież kieszonkowa
-arson - podpalenie
-rape - gwałt
-hijacking - porwanie (np. samolotu)
-fraud - przestęptwo pieniężne, oszustwo
-theft - kradzież
-manslaughter - zabójstwo
-smuggling - przemyt
-shoplifting - kradzież sklepowa
-fine - grzywna / mandat
-community service - praca społeczna
-probation - mieć kuratora
-suspended prison sentence - wyrok w zawieszeniu
-prison - więzienie
-ponytail - koński ogon
-disguise - przebranie
-loss adjusters - likwidatorzy szkód
-holdall - torba
-unwitting - niezamierzony
-brandish - wymachiwać
+socialite - częsty użytkownik
+initially - początkowo
+fad - przelotna moda
+to be ingrained in sth - być częścią czegoś
+hermit - pustelnik
+account - konto
+pros and cons - za i przeciw
+suitable - pasujący (do kogoś)
+depending - w zależności od
+to maintain sth - utrzymać coś
+compelling - atrakcyjny
+tiring - męczący
+counterproductive - bezowocny
+extremly - wyjątkowo
+employee - pracownik
+credentials - referencje
+to be littered with sth - być zaśmiecanym czymś
+to go against sb - obrócić się przeciwko komuś
+ardent - zagorzały
+to struggle - zmagać się z czymś
+to come to terms with sth - pogodzić się z czymś
+devoid of sth - pozbawiony czegoś
+stripped down - zredukowany
+fine tuned - dopracowany
+source - źródło
+amusing - zabawny
+insight into sth - wgląd w coś
+customer - klient
+headhunter - łowca głów
+paradise - raj
+cheesy - tandetny
+achievement - osiągnięcie
+funt of knowledge - skarbnica wiedzy
+given - dany
+to drive traffic to - zwiększać ruch (bloga)
+overtly - otwarcie, jawnie
+downside - minus
+newsfeed - przeływ informacji
+hectic - intensywny
+on top of that - ponadto
+request - prośba
+to greet sb - witać kogoś
+not know sb from Adam - nie mieć pojęcia kto to
+to wear sb down - nużyć kogoś
+endorsement - wsparcie
+overly - na wyrost
+praise - pochwała
+desperate - desperacki
+attempt - próba
+reciprocal - odwzajemniony
+vested interest - własny interes
+gross - gruby
+exaggeration - przesada
+to ramble - rozgadywać się
+constant - stały
+flow - przepływ
+to trend - być na czasie
+to disappear - znikać
+issue - wydarzenie
+handful - garstka
+to reach out to sb - docierać do kogoś
+third party - osoby trzecie
+habit - zwyczaj
+follower - follower
+to figure out - zorientować się
+relevant - istotny
+content - zawartość, treść
+exchange with sb - wymiana z kimś
+audience - odbiorcy
+to tackle sth - zająć się czymś
+relative - krewny
+relatively - względnie
+employer - pracodawca
+to whine about sth - narzekać na coś
+interview - rozmowa ws. pracy
+contempt for sth - pogarda względem czegoś
+opportunity - szansa
+severely - poważnie
+moaner - maruda
+to announce sth - ogłaszać coś
+to rule out sth - wyeliminować coś
+to be far off the mark - być dalekim od prawdy
+to come under scrutiny - być bacznie obserwowanym
+to be put off - zrażać się do czegoś
+to put up with sth - pogodzić się z czymś
+despite sth - pomimo czegoś
+to render sth useless - czynić coś bezużytecznym
+viable - niezły
+to catch on - chwycić, stać się popularnym
+adverising - reklama
+to alter sth - zmieniać coś
+privacy settings - ustawienia prywatności
+must - konieczność
+purpose - cel
+to presume - zakładać
+allrounder - osoba wszechstronna
+due to sth - z powodu czegoś
+wealth - bogactwo
+to swallow up sth - połykać coś
+budding - początkujący
+incredibly - niesłychanie
+to split with sth - zaprzestać z kimś współpracy
+to decline - pogorszyć się
+youths - młodzi
+to socialise - utrzymywać kontakty
+to get up to no good - zachowywać się w nieodpowiedni sposób
+to diminish - zmniejszać się
+to join - dołączać
+cold - przeziębienie
+teenage - nastolatek
+to gain attention - przykuwać uwagę
+peer - rówieśnik
+varied - zróżnicowany
+to spawn sth - zaowocować czymś
+photo diary - foto pamiętnik
+either...or... - albo, albo
+enlightening - pouczający
+over the top - przesadzony
+to commence sth - zacząć coś
+failure - niepowodzenie
+to capture sth - pobudzać coś
+ease - łatwość
+to seam that - wydawać się, że
+to avoid sth - unikać czegoś
+to take over from sth - prześcignąć coś, wygrać z czymś
+brainchild - pomysł
+embraced - dobrze przyjęty
+to save money - oszczędzać
+have to - musieć
+to fork out on sth - wykosztować się na coś
+simultaneously - jednocześnie
+to put sth to the forefront - uplasować coś na czele
+outstanding - wyjątkowy
+to store sth - przechowywać coś
+whether - czy
+it's up to you - zależy od Ciebie
+do dabble with sth - eksperymentować z czymś
