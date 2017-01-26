@@ -2,16 +2,18 @@
 #include "directorygetter.h"
 #include "textprinter.h"
 
-int main()
+#include <QApplication>
+#include "wordsteacher.h"
+
+int main(int argc, char *argv[])
 {
     DictionaryGetter dictionaryGetter("../angielski/angielski.txt");
     PairPicker pairPicker(dictionaryGetter.getDictionary());
 
-    while (true)
-    {
-        TextPrinter::ask(pairPicker);
-        system("clear");
-    }
+    QApplication app(argc, argv);
+    WordsTeacher window(pairPicker);
+    window.show();
+    return app.exec();
 }
 
 
