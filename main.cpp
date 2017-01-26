@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
 
-    DictionaryGetter dictionaryGetter("../angielski/ai.txt");
+    DictionaryGetter dictionaryGetter/*("../angielski/ai.txt")*/;
     PairPicker pairPicker(dictionaryGetter.getDictionary());
 
     WordsTeacher window(pairPicker);
