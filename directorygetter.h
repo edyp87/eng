@@ -6,7 +6,7 @@
 class DictionaryGetter
 {
 public:
-    DictionaryGetter(const std::string & filePath);
+    DictionaryGetter(const std::string & filePath = "");
 
     Dictionary getDictionary();
 

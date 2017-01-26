@@ -1,10 +1,19 @@
 #include "directorygetter.h"
 
 #include <fstream>
+#include <QFileDialog>
 
 DictionaryGetter::DictionaryGetter(const std::string &filePath) : m_filePath(filePath)
 {
     srand( static_cast<unsigned>(time( NULL )) );
+
+    if (m_filePath.empty())
+    {
+        m_filePath =
+                QFileDialog::getOpenFileName(0,
+                                             "Select a dictionary file to open...",
+                                             QDir::currentPath()).toStdString();
+    }
 }
 
 Dictionary DictionaryGetter::getDictionary()
