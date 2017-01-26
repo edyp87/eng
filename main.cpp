@@ -4,30 +4,35 @@
 
 using namespace std;
 
-pair<string, string> split(const string &line)
+class PairPicker
 {
-    size_t found = line.find("-");
-    return { line.substr(0, found - 1), line.substr(found + 2) };
-}
+public:
+    PairPicker(const map<string, string> & dictionary);
 
-void openFile(const string &filename, map<string, string> &dictionary)
+    std::pair<string, string> pick();
+
+private:
+    std::pair<string, string> getRandomFromMap();
+    map<string, string> pairs;
+};
+
+class DictionaryGetter
 {
-    ifstream infile(filename);
-    string line {};
+public:
+    DictionaryGetter(const std::string & filePath);
 
-    while (getline(infile, line))
-    {
-        auto words = split(line);
-        dictionary[words.first] = words.second;
-    }
-}
+    map<string, string> getDictionary();
 
-std::pair<string, string> getRandomFromMap(map<string, string> &dictionary)
-{
-    auto it = dictionary.begin();
-    std::advance(it, rand() % dictionary.size());
-    return *it;
-}
+private:
+    pair<string, string> split(const string &line);
+    void openFile(const string &filename, map<string, string> &dictionary);
+
+    std::string m_filePath;
+};
+
+
+
+
 
 void shuffle(std::pair<string, string> &words)
 {
@@ -49,16 +54,58 @@ void ask(std::pair<string, string> words)
 
 int main()
 {
-    srand( time( NULL ) );
-    map<string, string> dictionary {};
-    openFile("../eng/angielski.txt", dictionary);
+    DictionaryGetter dictionaryGetter("../angielski/angielski.txt");
+    PairPicker pairPicker(dictionaryGetter.getDictionary());
 
     while (true)
     {
-        ask(getRandomFromMap(dictionary));
+        ask(pairPicker.pick());
         system("clear");
-
     }
+}
 
-    return 0;
+PairPicker::PairPicker(const map<string, string> &dictionary) : pairs(dictionary) {}
+
+std::pair<string, string> PairPicker::pick()
+{
+    return getRandomFromMap();
+}
+
+std::pair<string, string> PairPicker::getRandomFromMap()
+{
+    auto it = pairs.begin();
+    std::advance(it, static_cast<unsigned long>(rand()) % pairs.size());
+    return *it;
+}
+
+DictionaryGetter::DictionaryGetter(const string &filePath) : m_filePath(filePath)
+{
+    srand( static_cast<unsigned>(time( NULL )) );
+}
+
+map<string, string> DictionaryGetter::getDictionary()
+{
+    map<string, string> dictionary {};
+
+    openFile(m_filePath, dictionary);
+
+    return dictionary;
+}
+
+pair<string, string> DictionaryGetter::split(const string &line)
+{
+    size_t found = line.find("-");
+    return { line.substr(0, found - 1), line.substr(found + 2) };
+}
+
+void DictionaryGetter::openFile(const string &filename, map<string, string> &dictionary)
+{
+    ifstream infile(filename);
+    string line {};
+
+    while (getline(infile, line))
+    {
+        auto words = split(line);
+        dictionary[words.first] = words.second;
+    }
 }
