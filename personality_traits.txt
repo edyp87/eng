@@ -1,0 +1,43 @@
+woman | kobieta
+women | kobiety
+man | mężczyzna
+men | mężczyźni
+aggressive | agresywny
+arrogant | arogancki
+messy | niechlujny
+beautiful | ładny
+delicate | delikatny
+patient | cierpliwy
+charming | czarujący
+sensitive | wrażliwy
+gentle | delikatny, łagodny
+brave | odważny
+bossy | apodyktyczny
+chatty | gawędziarski
+reliable | niezawodny
+moody | markotny
+loving | kochający
+reckless | lekkomyslny
+lazy | leniwy
+loyal | wierny
+naive | naiwny
+shy | nieśmiały
+hesitant | niezdecydowany
+devoted | oddany
+self-confident | pewny siebie
+suspicious | podejrzliwy
+absent-minded | roztargniony
+sentimental | uczuciowy
+tolerant | tolerancyjny
+stubborn | uparty
+understanding | wyrozumiały
+jealous | zazdrosny
+irritable | irytujący się
+faithful | wierny
+quick-tempered | porywczy
+polite | uprzejmy
+honest | szczery
+varied | zróżnicowany
+variety | zróznicowanie
+various | różny
+vary | róznić się

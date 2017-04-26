@@ -1,0 +1,9 @@
+polite | impolite
+patient | impatient
+honest | unhonest
+sensitive | insensitive
+frientdly | unfriendly
+carring | uncarring
+selfish | unselfish
+dependent | independent
+responsible | irresponsible
